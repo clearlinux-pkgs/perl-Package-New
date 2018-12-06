@@ -4,7 +4,7 @@
 #
 Name     : perl-Package-New
 Version  : 0.07
-Release  : 4
+Release  : 5
 URL      : https://cpan.metacpan.org/authors/id/M/MR/MRDVT/Package-New-0.07.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MR/MRDVT/Package-New-0.07.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libp/libpackage-new-perl/libpackage-new-perl_0.07-2.debian.tar.xz
