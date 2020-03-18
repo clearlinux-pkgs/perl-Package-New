@@ -4,7 +4,7 @@
 #
 Name     : perl-Package-New
 Version  : 0.09
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/M/MR/MRDVT/Package-New-0.09.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MR/MRDVT/Package-New-0.09.tar.gz
 Summary  : 'Simple base package from which to inherit'
@@ -23,7 +23,6 @@ objects.
 Summary: dev components for the perl-Package-New package.
 Group: Development
 Provides: perl-Package-New-devel = %{version}-%{release}
-Requires: perl-Package-New = %{version}-%{release}
 Requires: perl-Package-New = %{version}-%{release}
 
 %description dev
@@ -99,5 +98,5 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Package/New.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Package/New/Dump.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Package/New.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Package/New/Dump.pm
