@@ -4,7 +4,7 @@
 #
 Name     : perl-Package-New
 Version  : 0.09
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/M/MR/MRDVT/Package-New-0.09.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MR/MRDVT/Package-New-0.09.tar.gz
 Summary  : 'Simple base package from which to inherit'
@@ -98,5 +98,5 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Package/New.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Package/New/Dump.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Package/New.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Package/New/Dump.pm
