@@ -4,7 +4,7 @@
 #
 Name     : perl-Package-New
 Version  : 0.09
-Release  : 16
+Release  : 17
 URL      : https://cpan.metacpan.org/authors/id/M/MR/MRDVT/Package-New-0.09.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MR/MRDVT/Package-New-0.09.tar.gz
 Summary  : 'Simple base package from which to inherit'
